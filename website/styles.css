@@ -1,0 +1,14 @@
+:root{
+  --accent:#2b8a7a;
+  --muted:#666;
+  --bg:#fff;
+  --maxw:900px;
+}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;color:#111;background:var(--bg);margin:0;padding:1rem}
+.site-header{text-align:center;margin-bottom:1rem}
+main{max-width:var(--maxw);margin:0 auto;padding:1rem}
+section{margin-bottom:1.25rem}
+form input,form textarea{width:100%;padding:.5rem;margin:.25rem 0;border:1px solid #ddd;border-radius:4px}
+button{background:var(--accent);color:#fff;border:0;padding:.6rem 1rem;border-radius:4px;cursor:pointer}
+.note{color:var(--muted);font-size:.9rem}
+footer{text-align:center;padding-top:1rem;color:var(--muted)}
