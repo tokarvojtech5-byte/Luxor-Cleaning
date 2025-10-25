@@ -1,10 +1,10 @@
-# Legal & Insurance
+# Rechtliches & Versicherung
 
-Keep a record of permits, registrations, and insurance certificates here.
+Behalten Sie hier eine Übersicht über Genehmigungen, Registrierungen und Versicherungszertifikate.
 
-Recommended:
-- General liability insurance
-- Workers' compensation (if hiring employees or contractors)
-- Local business registration or DBA
+Empfohlen:
+- Betriebshaftpflichtversicherung (General liability)
+- Arbeitnehmerentschädigung / Unfallversicherung (bei Angestellten oder beauftragten Kräften)
+- Gewerbeanmeldung / Registrierung
 
-Store copies of policy numbers and broker contact info (do not commit scanned sensitive documents to the repository).
+Speichern Sie Policen-Nummern und Kontaktinformationen von Versicherungsvertretern, aber fügen Sie keine sensiblen Scans in dieses öffentliche Repository ein.

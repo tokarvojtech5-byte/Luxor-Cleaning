@@ -1,13 +1,13 @@
-# Marketing & Growth
+# Marketing & Wachstum
 
-Local-first tactics:
-- Claim Google Business Profile and add real photos
-- Create a simple Facebook/Instagram page and share before/after photos
-- Distribute flyers at apartment complexes and partner with property managers
+Lokale Taktiken:
+- Google-Unternehmensprofil (Google Business) beanspruchen und echte Fotos hinzufügen
+- Facebook- und Instagram-Unternehmensseiten anlegen; Vorher-/Nachher-Fotos posten
+- Flyer in Wohnanlagen verteilen und Partnerschaften mit Hausverwaltungen aufbauen
 
 Online:
-- Local SEO: add city and neighborhood keywords to site pages
-- Run small geo-targeted ads to the local area to test demand
+- Lokales SEO: Stadt- und Nachbarschaftsbegriffe auf den Seiten einfügen
+- Kleine, geo-targeted Anzeigen testen (z. B. niedriges Budget für die erste Woche)
 
-Referral:
-- Offer discounts for referrals. Track referred customers in a simple spreadsheet or CRM.
+Empfehlung für Empfehlungen:
+- Rabatte für Weiterempfehlungen anbieten. Empfehlungen in einer einfachen Tabelle oder einem CRM erfassen.

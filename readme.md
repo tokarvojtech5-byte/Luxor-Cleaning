@@ -1,26 +1,31 @@
 # Luxor-Cleaning
 
-Local, reliable residential and small-business cleaning in [Your City]. We offer Standard, Deep, and Move-Out cleaning packages designed to be fast, thorough, and eco-friendly when requested.
+Lokaler, verlässlicher Reinigungsservice für Privat- und Kleinunternehmen in [Ihre Stadt]. Wir bieten
+die folgenden Pakete an: Standardreinigung, Grundreinigung (Deep Clean) und Umzugsreinigung. Auf Wunsch
+verwenden wir umweltfreundliche Reinigungsmittel.
 
-Contact
-- Email: hello@luxor-cleaning.example
-- Phone: (add your phone number)
+Kontakt
+- E-Mail: hello@luxor-cleaning.example
+- Telefon: (Telefonnummer einfügen)
 
-Quick start
-- Services and pricing: see `docs/services.md`
-- Bookings: use the contact form on `website/index.html` (or embed your preferred booking tool)
+Kurzanleitung
+- Leistungen und Preise: siehe `docs/services.md`
+- Termine & Buchung: Kontaktformular auf `website/index.html` (Platzhalter — vor Veröffentlichung an Ihr Buchungstool
+	anpassen oder Calendly einbetten)
 
-Repository purpose
-- This repository holds marketing materials, site scaffold, and operational docs for Luxor-Cleaning. It's public-facing content suitable for GitHub Pages.
+Wozu dieses Repository dient
+- Enthält Marketing-Inhalte, die Website-Vorlage und betriebliche Dokumente (SOPs, Marketing, Rechtliches). Die Seite ist
+	für eine Veröffentlichung via GitHub Pages vorgesehen.
 
-How to publish
-1. Authenticate with GitHub (use `gh auth login` or a Personal Access Token).
-2. Push the `main` branch: `git push -u origin main`.
-3. Optionally enable GitHub Pages in repository settings to publish the `website/` folder.
+Veröffentlichen (kurz)
+1. Authentifizieren Sie sich bei GitHub (empfohlen: `gh auth login`).
+2. Pushen Sie den Branch: `git push -u origin main`.
+3. In den Repository-Einstellungen GitHub Pages aktivieren und als Quelle `gh-pages` oder den `website/`-Ordner wählen
+	 (wir fügen ein Actions-Workflow hinzu, der `website/` als Quelle verwendet).
 
-Contributing
-- See `CONTRIBUTING.md` for guidelines on editing content and adding new pages.
+Kontribution
+- Siehe `CONTRIBUTING.md` für Hinweise zum Ändern von Inhalten und zur Zusammenarbeit.
 
 ---
-_This README was generated and scaffolded by project automation. Update contact details and pricing before publishing._
+_Bitte aktualisieren Sie Kontaktinformationen, Preise und Ort, bevor die Seite öffentlich geschaltet wird._
 # Luxor-Cleaning
