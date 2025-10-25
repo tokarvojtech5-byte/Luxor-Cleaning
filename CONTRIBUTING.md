@@ -1,21 +1,28 @@
-# Contributing to Luxor-Cleaning
 
-Thanks for helping improve Luxor-Cleaning's public repo. This repository is primarily marketing and documentation used to publish a basic website and operational docs.
+# Contributing to Luxor-Cleaning / Mitwirkung
 
-Rules for contribution
-- Keep changes to content (docs, website) clear and atomic.
-- Use descriptive commit messages, e.g. "docs: add deep-clean checklist" or "website: update contact info".
-- Avoid adding sensitive data (API keys, passwords, personal IDs). Remove secrets before committing.
+Danke, dass Sie zur Verbesserung dieses öffentlichen Repositories beitragen. Dieses Repository enthält
+hauptsächlich Marketing- und Betriebsdokumente sowie die Website-Vorlage.
 
-Editing the website
-- The public site scaffold lives in `website/`. Edit `index.html` and `styles.css` for content and styling.
-- If you add JavaScript, keep it minimal and self-contained in `website/`.
+Regeln für Beiträge
+- Änderungen an Inhalten (Docs, Website) sollten klein und thematisch fokussiert sein.
+- Verwenden Sie aussagekräftige Commit-Messages, z. B. "docs: deep-clean-checklist hinzufügen" oder
+	"website: kontaktinfo aktualisieren".
+- Keine sensiblen Daten (API-Keys, Passwörter, Personalausweise) in das Repo einchecken.
 
-Documentation
-- Operational docs are under `docs/`.
-- Add a short front-matter line at the top of new files describing purpose and last-updated date.
+Website bearbeiten
+- Die Website-Vorlage befindet sich in `website/`. Inhalte in `index.html` und Stile in `styles.css` bearbeiten.
+- Wenn Sie JavaScript hinzufügen, halten Sie es minimal und lokal zu `website/`.
 
-Publishing
-- After editing, commit locally and push to `origin main`. The repo owner will enable GitHub Pages if desired.
+Dokumentation
+- Betriebliche Dokumente liegen unter `docs/`.
+- Fügen Sie am Anfang neuer Dateien eine kurze Beschreibung und ein "last-updated" Datum hinzu.
 
-Thank you — small, clear PRs are easiest to review.
+Veröffentlichen
+- Nach Änderungen lokal committen und auf `origin main` pushen. Der Repo-Besitzer aktiviert gegebenenfalls
+	GitHub Pages (oder die automatische Deployment-Action in `.github/workflows/`).
+
+Hinweis für Reviewer
+- Kleine, klare Pull Requests sind am einfachsten zu prüfen.
+
+Thank you — if you prefer to edit in English, add an English line at the top; bilingual short notes are fine.

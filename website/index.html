@@ -26,13 +26,18 @@
       <section id="contact">
         <h2>Kontakt & Buchung</h2>
         <p>E-Mail: <a href="mailto:hello@luxor-cleaning.example">hello@luxor-cleaning.example</a></p>
-        <form id="contact-form" action="#" method="post">
+        <!-- Replace the action URL with your form endpoint (e.g. Formspree) or embed a scheduler (Calendly).
+             Example Formspree action: https://formspree.io/f/{your-id} -->
+        <form id="contact-form" action="https://formspree.io/f/{your-id}" method="post">
           <label>Name<br /><input name="name" required /></label>
           <label>E-Mail<br /><input name="email" type="email" required /></label>
           <label>Nachricht<br /><textarea name="message" rows="4" required></textarea></label>
+          <!-- Optional: include a hidden field to set a redirect URL after submit -->
+          <input type="hidden" name="_next" value="/danke.html" />
           <button type="submit">Senden</button>
         </form>
-        <p class="note">Platzhalterformular — ersetzen Sie das `action`-Attribut durch Ihren Buchungs-Endpunkt oder binden Sie Calendly ein.</p>
+        <p class="note">Platzhalterformular — ersetzen Sie das `action`-Attribut durch Ihren Buchungs-Endpunkt oder binden Sie Calendly ein. 
+        Wenn Sie Formspree verwenden, erstellen Sie dort ein Formular und ersetzen Sie <code>{your-id}</code> durch Ihre ID.</p>
       </section>
     </main>
 
