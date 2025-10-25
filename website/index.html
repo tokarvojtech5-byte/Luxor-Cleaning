@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Luxor-Cleaning — Reliable local cleaning</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="/">Start</a>
+        <a href="/website/services.html">Leistungen</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <h1>Luxor-Cleaning</h1>
+      <p>Schnell, freundlich und gründlich — Reinigungen für Zuhause und kleine Unternehmen.</p>
+    </header>
+
+    <section class="team" id="team">
+      <img src="assets/branding/ceo.jpg" alt="CEO Foto: tokarvojtech5-byte" />
+      <div class="bio">
+        <h2>Inhaber &amp; CEO</h2>
+        <p><strong>tokarvojtech5-byte</strong><br />Gründer/in und Geschäftsführung von Luxor-Cleaning. Ich stehe persönlich für Qualität, Zuverlässigkeit und Kundenzufriedenheit. Kontaktieren Sie mich gerne direkt über die oben angegebene E‑Mail.</p>
+      </div>
+    </section>
+
+    <main>
+      <section id="services">
+        <h2>Unsere Leistungen</h2>
+        <ul>
+          <li><strong>Standardreinigung</strong> — regelmäßige Unterhaltsreinigung (Küche, Bad, Wohnbereiche).</li>
+          <li><strong>Grundreinigung (Deep Clean)</strong> — intensive Reinigung, inkl. Fugen, Sockelleisten und schwer zugänglichen Stellen.</li>
+          <li><strong>Umzugsreinigung</strong> — vollständige Reinigung beim Auszug/Einzug, auf Wunsch inkl. Schrank- und Gerätereinigung.</li>
+        </ul>
+        <p>Details und Preisbeispiele: <code>docs/services.md</code>.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Kontakt & Buchung</h2>
+        <p>E-Mail: <a href="mailto:hello@luxor-cleaning.example">hello@luxor-cleaning.example</a></p>
+        <!-- Form will POST to FormSubmit which forwards submissions to the target email. -->
+        <!-- FormSubmit requires you to confirm via an email they will send to the address (check spam). -->
+        <form id="contact-form" action="https://formsubmit.co/vojtecht9@gmail.com" method="post">
+          <label>Name<br /><input name="name" required /></label>
+          <label>E-Mail<br /><input name="email" type="email" required /></label>
+          <label>Nachricht<br /><textarea name="message" rows="4" required></textarea></label>
+          <!-- Hidden fields for FormSubmit configuration -->
+          <input type="hidden" name="_next" value="/danke.html" />
+          <input type="hidden" name="_subject" value="Neue Anfrage von Luxor-Cleaning Website" />
+          <input type="hidden" name="_captcha" value="false" />
+          <button type="submit">Senden</button>
+        </form>
+        <p class="note">Das Formular sendet jetzt an <strong>vojtecht9@gmail.com</strong> über FormSubmit. Prüfen Sie Ihre Mailbox und bestätigen
+        die Empfangsbestätigung von FormSubmit (erforderlich, damit E-Mails ankommen). Alternativ können Sie Calendly oder ein Backend verwenden.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Luxor-Cleaning — <a href="/CONTRIBUTING.md">Mitwirken</a></p>
+    </footer>
+  </body>
+</html>
